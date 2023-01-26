@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
   <body>
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center ">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
       </li>
@@ -29,12 +29,12 @@
         my work and experience! If you like what you see and have a project you
         need coded, don’t hestiate to contact me.
       </p>
-      <div class="d-flex justify-content-center mx-auto">
-        <img src="images/angellist.svg" alt="" />
-        <img src="images/github.svg" alt="" />
-        <img src="images/twitter.svg" alt="" />
-        <img src="images/Linkedin.svg" alt="" />
-        <img src="images/medium.svg" alt="" />
+      <div class="d-flex justify-content-center">
+        <img class="mx-3" src="images/angellist.svg" alt="" />
+        <img class="mx-3" src="images/github.svg" alt="" />
+        <img class="mx-3" src="images/twitter.svg" alt="" />
+        <img class="mx-3" src="images/Linkedin.svg" alt="" />
+        <img class="mx-3" src="images/medium.svg" alt="" />
       </div>
     </div>
 
@@ -246,20 +246,25 @@
       </div>
     </section>
 
-    <section>
+    <section class="mb-5">
       <div class="container justify-content-center">
         <h2 class="my-5 text-center">About me</h2>
         <p class="text-muted mt-2 text-center">
-          I can help you build a product, feature or website Look through some of my work and<br> experience! If you like what you see and have a project you need coded,<br>don’t hestiate to contact me.
+          I can help you build a product, feature or website Look through some
+          of my work and<br />
+          experience! If you like what you see and have a project you need
+          coded,<br />don’t hestiate to contact me.
         </p>
-        <center><button type="button" class="btn btn-success">Get My Resume</button></center>
+        <center>
+          <button type="button" class="btn btn-success">Get My Resume</button>
+        </center>
       </div>
       <div class="container justify-content-center">
         <div class="row">
           <div class="col-md-4">
             <div class="card text-center justify-content-center mt-5 pt-4">
               <div class="rounded-circle">
-                  <img src="./images/Icon-Langguage.svg" alt="Language Icon">
+                <img src="./images/Icon-Langguage.svg" alt="Language Icon" />
               </div>
               <div class="card-body">
                 <h5 class="card-title text-center">Languages</h5>
@@ -276,7 +281,7 @@
           <div class="col-md-4">
             <div class="card text-center justify-content-center mt-5 pt-4">
               <div class="rounded-circle">
-                  <img src="./images/Icon-Name.svg" alt="Language Icon">
+                <img src="./images/Icon-Name.svg" alt="Language Icon" />
               </div>
               <div class="card-body">
                 <h5 class="card-title text-center">Languages</h5>
@@ -293,7 +298,7 @@
           <div class="col-md-4">
             <div class="card text-center justify-content-center mt-5 pt-4">
               <div class="rounded-circle">
-                  <img src="./images/Iconskills.svg" alt="Language Icon">
+                <img src="./images/Iconskills.svg" alt="Language Icon" />
               </div>
               <div class="card-body">
                 <h5 class="card-title text-center">Languages</h5>
@@ -306,8 +311,47 @@
               </div>
             </div>
           </div>
-
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-4">
+          <p class="ms-5 text-md-start text-lead fs-4 fw-bold">
+            I'm always interested in hearing <br> about new projects, so if you'd <br>
+            like to chat please get in touch.
+          </p>
+        </div>
+        <form action="" class="mx-5 col-md-6">
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control mt-4 p-3"
+              id="exampleFormControlInput1"
+              placeholder="Full name"
+              required
+            />
+            <input
+              type="email"
+              class="form-control mt-4 p-3"
+              id="exampleFormControlInput1"
+              placeholder="Email address"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Enter your message here"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-success mb-3 p-2">
+            Get in touch
+          </button>
+        </form>
       </div>
     </section>
 
